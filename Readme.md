@@ -1,7 +1,7 @@
-# VectorShift Frontend Technical Assessment
+# VectorShift Integrations Technical Assessment
 
 ## Assignment Overview
-This repository contains the solution to the VectorShift Technical Assessment. The project consists of a frontend built using React and a backend implemented with FastAPI. The goal of this project is to create a flexible and reusable node abstraction, enhance the styling, improve the text node logic, and integrate the frontend with the backend for pipeline submission.
+This repository contains the solution to the VectorShift Integrations Technical Assessment. The project consists of a frontend built using React and a backend implemented with FastAPI. The goal of this project is to create a flexible and reusable node abstraction, enhance the styling, improve the text node logic, and integrate the frontend with the backend for Integrations.
 
 ## Project Structure
 - Frontend: Located in the `/frontend` folder.
@@ -25,3 +25,18 @@ This repository contains the solution to the VectorShift Technical Assessment. T
     uvicorn main:app --reload
  ```
 3. The backend will start on http://localhost:8000.
+
+### Redis:
+* Start a Redis instance using the following command:
+```
+  redis-server
+```
+
+## Technologies Used
+### Frontend:
+* JavaScript
+* React
+### Backend:
+* Python
+* FastAPI
+* Redis
