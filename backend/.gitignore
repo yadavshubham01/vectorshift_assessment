@@ -1,0 +1,42 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+
+# Test coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
