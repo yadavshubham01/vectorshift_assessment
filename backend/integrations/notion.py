@@ -12,8 +12,8 @@ from integrations.integration_item import IntegrationItem
 
 from redis_client import add_key_value_redis, get_value_redis, delete_key_redis
 
-CLIENT_ID = '187d872b-594c-8056-a57c-003716f25d02'
-CLIENT_SECRET = 'secret_jPgIqG7Et1n1AZ7Mg2C12BFrxsRHeVMG0hqmbF7kWEK'
+CLIENT_ID = 'xx'
+CLIENT_SECRET = 'xx'
 encoded_client_id_secret = base64.b64encode(f'{CLIENT_ID}:{CLIENT_SECRET}'.encode()).decode()
 
 REDIRECT_URI = 'http://localhost:8000/integrations/notion/oauth2callback'
